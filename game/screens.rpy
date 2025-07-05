@@ -296,7 +296,7 @@ screen navigation():
     imagebutton auto "gui/gallery_%s.png" xpos 0.42 ypos 0.5 hovered Play("sound", "audio/Coins (21).wav") action [Play("sound", "audio/Click (8).wav"), ShowMenu('endings')]
     imagebutton auto "gui/credits_%s.png" xpos 0.43 ypos 0.6 hovered Play("sound", "audio/Coins (21).wav") action [Play("sound", "audio/Click (8).wav"), ShowMenu('about')]
     imagebutton auto "gui/quit_%s.png" xpos 0.41 ypos 0.7 hovered Play("sound", "audio/Coins (21).wav") action [Play("sound", "audio/Click (8).wav"), Quit()]
-
+    imagebutton auto "gui/discord_%s.png" xpos .42 ypos 0.8 hovered Play("sound", "audio/Coins (21).wav") action [Play("sound", "audio/Click (8).wav"), OpenURL("https://discord.greycraft.us/betterhalf")]
 
 
 style navigation_button is gui_button
@@ -474,6 +474,8 @@ screen about():
             vbox:
                 text "Art, story, and coding by {a=https://nemlei.itch.io/}Nemlei{/a}"
                 text " "
+                text "Re-Released for our wonderful community by {a=https://renpy.greycraft.us/noahkirby}Noah Kirby{/a}"
+                text " "
                 text "Made with {a=https://www.renpy.org/}Ren'Py{/a}"
                 text "{a=https://www.renpy.org/doc/html/license.html}MIT Licence{/a}"
                 text " "
@@ -487,7 +489,7 @@ screen about():
                 text "Font: Artifika, Copyright (c) 2011, Cyreal"
                 text "{a=https://www.fontsquirrel.com/license/artifika/}SIL Open Font Licence{/a}"
                 text " "
-                text " "
+                text "Release version 1.0.1"
 #CREDITS HERE DUMBASS
 
     vbox:
