@@ -7,3 +7,4 @@ log.txt
 *.original
 *.rpyc
 traceback.txt
+errors.txt
