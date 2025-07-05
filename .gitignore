@@ -1,2 +1,7 @@
 *.log
 *.keystore
+log.*
+/game/saves/
+/game/cache/
+*.backup
+*.original
