@@ -1,6 +1,6 @@
 *.log
 *.keystore
-log.*
+log.text
 /game/saves/
 /game/cache/
 *.backup
