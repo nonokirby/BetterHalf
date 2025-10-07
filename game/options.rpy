@@ -25,7 +25,7 @@ define gui.show_name = True
 ## The version of the game.
 
 #HEY IDIOT
-define config.version = "v1.5"
+define config.version = "v1.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -39,7 +39,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BetterHalfv1.5"
+define build.name = "BetterHalfv1.1"
 
 
 ## Sounds and music ############################################################
@@ -117,10 +117,7 @@ define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
 
-## Preference defaults #########################################################
 
-## Controls the default text speed. The default, 0, is infinite, while any other
-## number is the number of characters per second to type out.
 
 default preferences.text_cps = 60
 
@@ -233,6 +230,6 @@ init python:
 
 
 ## The username and project name associated with an itch.io project, separated
-## by a slash.
+## by a slash. 
 
 # define build.itch_project = "renpytom/test-project"
